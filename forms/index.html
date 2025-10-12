@@ -1,0 +1,94 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="color: rgba(7, 51, 15, 0.788);"><em>Survey form</em></h1>
+
+    <form id="form">
+      <div class="form conrrol">
+        <label for="name" id="label-name">Name</label><br>
+        <input type="text" id="name" style="width: 90%;" placeholder="Enter your name" />
+      </div>
+      
+      <div class="form conrrol">
+        <label for="email" id="label-email">Email</label><br>
+        <input type="email" id="email" style="width: 90%;" placeholder="Enter your email" >
+      </div>
+      
+      <div class="form conrrol">
+        <label for="age" id="label-age">Age</label><br>
+        <input type="text" id="age" style="width: 90%;" placeholder="Enter your age" />
+      </div><br>
+<div class="form control">
+    <label for="role">Which option best describes you?<br>
+
+    </label><br>
+    <select style="width: 90%;" name="role" id="role">
+        <option value="student"> Student</option>
+        <option value="intern">Intern</option>
+        <option value="roffessional">Proffessional</option>
+        <option value="other">Other</option>
+    </select></div><br>
+    <div class="form conrrol">
+        <label>Would you recommend Semos to a friend?</label><br>
+            <label for="recommed-1"><br>
+                <input type="radio" id="recommed-1" name="recommed">Yes
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">No
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed">Maybe
+            </label>
+
+    </div><br>
+<div class="form control">
+    <label>Languages and Frameworks known
+    <small>(Check all that apply)</small>
+</label><br>
+<label for="input-1">
+    <input type="checkbox" name="input">C
+</label><br>
+<label for="input-2">
+    <input type="checkbox" name="input">C++
+</label><br>
+<label for="input-3">
+    <input type="checkbox" name="input">C#
+</label><br>
+<label for="input-4">
+    <input type="checkbox" name="input">Java
+</label><br>
+<label for="input-5">
+    <input type="checkbox" name="input">Python
+</label><br>
+<label for="input-6">
+    <input type="checkbox" name="input">JavaScript
+</label><br>
+<label for="input-7">
+    <input type="checkbox" name="input">React
+</label><br>
+<label for="input-8">
+    <input type="checkbox" name="input">Angular
+</label><br>
+<label for="input-9">
+    <input type="checkbox" name="input">Django
+</label><br>
+<label for="input-10">
+    <input type="checkbox" name="input">Spring
+</label><br><br>
+</div>
+<div class="form control">
+<label for="comment">Any comments or suggestions</label><br><br>
+<textarea name="comment" id="comment" style="width: 90%;"  placeholder="Enter your comment here"></textarea>
+</div>
+<button   type="submit" value="submit">Submit</button>
+
+
+
+    </form>
+  </body>
+</html>
