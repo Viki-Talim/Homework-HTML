@@ -44,5 +44,146 @@
 }
 h3:hover {
   transition: 0.6s;
-  transform: rotate(360deg);
+  transform: scale(1.5);
+}
+.card-container {
+  display: flex;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+.circle-container {
+  position: relative;
+  perspective: 800px;
+  transform-style: preserve-3d;
+}
+.weather-card {
+  background-color: #e38e7e;
+  color: white;
+  width: 350px;
+  height: 400px;
+  float: right;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 25px;
+  margin: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 12px;
+  box-shadow: 0 0 16px 7px rgba(128, 128, 128, 0.534);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+. .weather-card:hover {
+  transform: scale(1.15);
+  z-index: 2;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.card-container:hover .weather-card:hover {
+  transform: scale(1.15);
+  opacity: 1;
+  z-index: 3;
+}
+.card-info {
+  padding: 16px;
+}
+.image {
+}
+.search-btn {
+  align-self: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 9px;
+  background-color: white;
+  color: grey;
+  font-size: 15px;
+  width: 60%;
+}
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.img-1,
+.img-2 {
+  width: 40px;
+  color: white;
+
+  height: auto;
+  vertical-align: middle;
+}
+
+.item-humid,
+.item-wind {
+  display: flex;
+  align-items: flex-start;
+  gap: 3px;
+  flex-direction: column;
+}
+.top-row {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.label,
+.label1 {
+  font-size: 14px;
+}
+
+.weather-card2 {
+  background-color: rgba(153, 126, 226, 0.575);
+  color: white;
+  width: 350px;
+  height: 400px;
+  float: right;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 25px;
+  margin: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 12px;
+  box-shadow: 0 0 16px 7px rgba(128, 128, 128, 0.534);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.weather-card2:hover {
+  transform: scale(1.15);
+  z-index: 2;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.card-container:hover .weather-card2:hover {
+  transform: scale(1.15);
+  opacity: 1;
+  z-index: 3;
+}
+
+.weather-card3 {
+  background-color: rgba(56, 180, 129, 0.637);
+  color: white;
+  width: 350px;
+  height: 400px;
+  float: right;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 25px;
+  margin: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 12px;
+  box-shadow: 0 0 16px 7px rgba(128, 128, 128, 0.534);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.weather-card3:hover {
+  transform: scale(1.15);
+  z-index: 2;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.card-container:hover .weather-card3:hover {
+  transform: scale(1.15);
+  opacity: 1;
+  z-index: 3;
 }
