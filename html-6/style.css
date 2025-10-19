@@ -1,0 +1,67 @@
+body {
+  background-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-bottom: 50px;
+}
+div:nth-child(1) {
+  background-color: rgba(157, 219, 157, 0.637);
+}
+div:nth-child(2) {
+  background-color: rgba(157, 219, 157, 0.637);
+}
+div:nth-child(4) {
+  background-color: rgba(157, 219, 157, 0.637);
+}
+div:nth-child(5) {
+  background-color: rgba(157, 219, 157, 0.637);
+}
+
+h1 {
+  text-align: center;
+  position: sticky;
+  top: 0px;
+  background-color: rgba(139, 199, 139, 0.452);
+  color: rgba(74, 143, 89, 0.904);
+  font-style: italic;
+}
+h1:hover {
+  color: rgba(53, 112, 189, 0.788);
+  cursor: pointer;
+}
+
+div img {
+  width: 30%;
+  display: inline-block;
+
+  margin: 9px;
+  height: 90%;
+}
+.btn-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+  padding: 7px 0;
+
+  background-color: rgba(139, 199, 139, 0.452);
+}
+.btn {
+  border: none;
+  background-color: rgba(139, 199, 139, 0.452);
+  border-radius: 5px;
+  padding: 5px 9px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+  color: rgba(53, 112, 189, 0.788);
+}
