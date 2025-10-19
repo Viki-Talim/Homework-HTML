@@ -1,0 +1,200 @@
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  background-color: rgba(54, 168, 212, 0.397);
+
+  margin: 0;
+
+  height: 100vh;
+}
+
+.wrapper {
+  perspective: 3000px;
+}
+
+.card {
+  width: 360px;
+
+  height: 530px;
+
+  transform-style: preserve-3d;
+
+  transition: transform 0.8s ease-in-out;
+
+  cursor: pointer;
+
+  border: 1px solid #ccc;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.5);
+
+  border-radius: 15px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  text-align: center;
+
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.front-page,
+.back-page {
+  position: absolute;
+
+  width: 100%;
+
+  height: 100%;
+
+  backface-visibility: hidden;
+
+  border-radius: 15px;
+}
+
+.front-page {
+  background-image: url(images/istockphoto-1344882804-612x612.jpg);
+
+  background-size: cover;
+}
+
+.card-info {
+  color: #fff;
+
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+
+  text-align: center;
+
+  padding: 35px;
+
+  border-radius: 6px;
+
+  overflow: hidden;
+
+  color: white;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 30px;
+
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 22px;
+}
+
+.card-subsubtitle {
+  font-size: 15px;
+}
+
+.card-button {
+  border: none;
+position: relative;
+top: 190px;
+  width: 70%;
+
+  background-color: orange;
+
+  font-size: 16px;
+
+  padding: 6px;
+
+  cursor: pointer;
+
+  color: white;
+
+  border-radius: 25px;
+
+  flex-direction: column;
+}
+
+.back-page {
+  background-color: rgba(107, 171, 231, 0.555);
+
+  color: #fff;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  transform: rotateY(180deg);
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  text-align: center;
+
+  padding: 15px;
+
+  max-width: 300px;
+}
+
+.card-content {
+  font-size: 1.8rem;
+
+  font-weight: bold;
+
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.8rem;
+
+  font-weight: bold;
+
+  padding: 15px;
+  color: rgba(5, 62, 116, 0.856);
+}
+
+.card-description {
+  font-size: 1rem;
+
+  color: white;
+
+  /* margin-bottom: 20px; */
+
+  line-height: 1.6;
+}
+
+.card-button1 {
+  background-color: rgba(18, 94, 207, 0.795);
+
+  color: white;
+
+  padding: 6px;
+
+  width: 60%;
+
+  font-size: 1rem;
+
+  border: none;
+
+  border-radius: 25px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.card-button1:hover {
+  background-color: transparent;
+
+  color: rgba(233, 189, 43, 0.699);
+
+  border: 1px solid rgba(233, 189, 43, 0.699);
+}
