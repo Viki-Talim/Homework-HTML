@@ -1,0 +1,100 @@
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  background-color: white;
+}
+.main-container {
+  height: 100vh;
+}
+.main-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.title {
+  font-size: 2.5rem;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.btn {
+  border: none;
+  background-color: white;
+  font-size: 1.8rem;
+  color: rgb(167, 162, 162);
+  font-weight: bold;
+  padding: 8px;
+  cursor: pointer;
+}
+.btn-1 {
+  color: blueviolet;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  font-size: 1.8rem;
+}
+.btn:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+/* grid layout */
+.grid {
+  display: grid;
+  grid-template-rows: 200px 200px 325px 200px 200px;
+  grid-template-columns: 200px 200px 325px 200px 200px;
+  width: fit-content;
+  padding: 50px 0;
+  margin: 0 auto;
+  gap: 55px;
+}
+
+.grid-item,
+.grid-item-middle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.grid-item-middle {
+  border-radius: 23px;
+  grid-row: 1 / span 2;
+  grid-column: 3;
+}
+
+
+.grid-item {
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 3px;
+}
+.grid-item:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+@media screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+  }
+  .grid-item-middle {
+    grid-row: auto;
+    grid-column: auto;
+  }
+  .grid-item:hover {
+    transform: none;
+    z-index: auto;
+  }
+}
