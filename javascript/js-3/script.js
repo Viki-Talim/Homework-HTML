@@ -204,11 +204,11 @@ let sportsClothing = [
   sportsClothing10,
 ];
 console.log(sportsClothing[5]);
-console.log("-------------------");
-// for (let i = 0; i < sportsClothing.length; i++){
-//     sportsClothing[i].print();
-// }
-sportsClothing.forEach((sportsClothing) => sportsClothing.print());
+console.log("------------------");
+for (let i = 0; i < sportsClothing.length; i++){
+    sportsClothing[i].print();
+}
+// sportsClothing.forEach((sportsClothing) => sportsClothing.print());
 
 // niza od objekti
 const sportsClothes = [
