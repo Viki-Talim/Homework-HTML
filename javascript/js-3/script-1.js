@@ -159,16 +159,16 @@ const person10 = {
     console.log(`Her goal is to: ${this.goal}`);
   },
 };
-person1.print();
-person2.print();
-person3.print();
-person4.print();
-person5.print();
-person6.print();
-person7.print();
-person8.print();
-person9.print();
-person10.print();
+// person1.print();
+// person2.print();
+// person3.print();
+// person4.print();
+// person5.print();
+// person6.print();
+// person7.print();
+// person8.print();
+// person9.print();
+// person10.print();
 console.log("-------------");
 
 let person = [
@@ -188,6 +188,8 @@ console.log("-------------");
 for (let i = 0; i < person.length; i++) {
   person[i].print();
 }
+console.log("-------------");
+
 // niza od objekti
 const nutritionTracker = [
   {
@@ -324,9 +326,9 @@ function classifyByCalories(caloriesIntake) {
   if (caloriesIntake >= 0 && caloriesIntake < 1850) {
     calories = "Your goal is to: loose weight";
   } else if (caloriesIntake >= 1851 && caloriesIntake <= 2300) {
-    calories = "Your goal is to gain weight";
+    calories = "Your goal is to: gain weight";
   } else if (caloriesIntake > 2301 && caloriesIntake <= 3100) {
-    calories = "Your goal is to gain muscle";
+    calories = "Your goal is to: gain muscle";
   } else {
     return null;
   }

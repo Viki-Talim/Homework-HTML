@@ -180,16 +180,16 @@ const sportsClothing10 = {
     console.log(`We have three sizes: ${this.details.sizeRange}`);
   },
 };
-sportsClothing1.print();
-sportsClothing2.print();
-sportsClothing3.print();
-sportsClothing4.print();
-sportsClothing5.print();
-sportsClothing6.print();
-sportsClothing7.print();
-sportsClothing8.print();
-sportsClothing9.print();
-sportsClothing10.print();
+// sportsClothing1.print();
+// sportsClothing2.print();
+// sportsClothing3.print();
+// sportsClothing4.print();
+// sportsClothing5.print();
+// sportsClothing6.print();
+// sportsClothing7.print();
+// sportsClothing8.print();
+// sportsClothing9.print();
+// sportsClothing10.print();
 
 let sportsClothing = [
   sportsClothing1,
