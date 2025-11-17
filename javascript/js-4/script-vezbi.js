@@ -53,7 +53,7 @@ console.log("------------------------------------");
 const pronajdiKniga = knigi.find((kniga) => kniga.godina < 1950);
 console.log(pronajdiKniga);
 console.log("----------------------------------");
-const fantasyBook = knigi.some((kniga) => kniga.zhanr === "Фантазија");
+const fantasyBook = knigi.some((kniga) => kniga.zhanr === "Fantasy");
 console.log(fantasyBook);
 console.log("---------------------------------");
 const prochitanaTrue = knigi.every(kniga => kniga.prochitana === true);
@@ -72,5 +72,5 @@ const avtoriIknigi = knigi.forEach((kniga) =>
   console.log(`${kniga.naslov} od ${kniga.avtor}`)
 );
 console.log("------------------");
-const proverkaZaAvtor = knigi.some(kniga => kniga.avtor === "Антоан де Сент-Егзипери");
+const proverkaZaAvtor = knigi.some(kniga => kniga.avtor === "Antoine de Saint-Exupéry");
 console.log(proverkaZaAvtor);
