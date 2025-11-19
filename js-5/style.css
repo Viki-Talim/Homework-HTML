@@ -1,0 +1,31 @@
+#naslov {
+  background-color: cadetblue;
+  cursor: pointer;
+}
+#products-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  cursor: pointer;
+}
+.product-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  background-color: cadetblue;
+}
+p:hover {
+  cursor: pointer;
+  background-color: rgba(18, 82, 112, 0.596);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.dark-mode {
+  background-color: #282828;
+  color: rgb(231, 231, 231);
+}
+
+.dark-toggle {
+  color: white;
+}
