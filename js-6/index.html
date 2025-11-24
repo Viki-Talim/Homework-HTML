@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="books-list"></div>
+    <h2>List of books</h2>
+    <div id="label-sort">
+        <label for="sort-select">Sort by:</label>
+        <select id="sort-select">
+            <option value="none">No filter</option>
+            <option value="title">Title (A-Z)</option>
+            <option value="author_birth_year_asc">Year (Oldest)</option>
+            <option value="author_birth_year_desc">Year (Newest)</option>
+            <option value="created_at_desc">By Date (Oldest)</option>
+             <option value="created_at_asc">By Date (Newest)</option>
+
+        </select>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Year</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+    <div id="books-list"></div>
+    <script src="script.js" defer></script>
+</body>
+</html>

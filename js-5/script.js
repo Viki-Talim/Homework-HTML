@@ -27,13 +27,13 @@ setInterval(() => {
     index = 0;
   }
   naslov.textContent = poraki[index];
-  naslov.style.color = index % 2 === 0 ? "darkblue" : "black";
+  naslov.style.color = index % 2 === 0 ? "lightgrey" : "black";
 }, 3000);
 const contentElements = document.querySelectorAll(".content");
 console.log(contentElements);
 contentElements.forEach((contentElement) => {
-  contentElement.style.color = "black";
-  contentElement.style.padding = "16px 22px";
+  
+  contentElement.style.padding = "12px 18px";
   contentElement.style.background = "lightgrey";
   contentElement.style.color = "cadetblue";
   contentElement.style.cursor = "pointer";
@@ -41,8 +41,6 @@ contentElements.forEach((contentElement) => {
 const allParagraphs = document.querySelectorAll("p");
 allParagraphs.forEach((pElement) => {
   pElement.style.fontFamily = "Arial, sans-serif";
-  pElement.style.color = "lightblue";
-  pElement.style.padding = "16px 22px";
 });
 const btn = document.querySelector("button");
 
@@ -51,6 +49,7 @@ btn.style.borderRadius = "6px";
 btn.style.color = "black";
 btn.style.backgroundColor = "cadetblue";
 btn.style.cursor = "pointer";
+btn.style.margin = "12px";
 
 const darkModeButton = document.getElementById("dark-mode");
 setTimeout(() => {
