@@ -1,0 +1,402 @@
+[
+  {
+    "id": "e4f8a1d2-0c9b-4e76-a3b0-2f1d4c8e9a7b",
+    "product": "Quantum Leap Chronometer",
+    "manufacturer": "Aether Dynamics",
+    "category": "Exclusive Mechanical Watches",
+    "dateReleased": "10-03-2024",
+    "title": "The first gravity-driven tourbillon watch with a full sapphire crystal case."
+  },
+  {
+    "id": "9b6d0c7a-5a3e-4f1c-8b2d-7e0f3a4c5b6d",
+    "product": "Hybrid Solstice Watch",
+    "manufacturer": "Chronos Labs",
+    "category": "Smart Hybrid Watches",
+    "dateReleased": "01-09-2023",
+    "title": "Maintains a classic analog look while monitoring heart rate and air quality levels."
+  },
+  {
+    "id": "2a8e3d5c-1f6b-4c0a-9d7e-5b3f2e1a0d9c",
+    "product": "Deep Diver X Titanium",
+    "manufacturer": "Neptune Gears",
+    "category": "Professional Sports Watches",
+    "dateReleased": "25-07-2022",
+    "title": "Certified to 5000m depth with an integrated helium escape valve and titanium casing."
+  },
+  {
+    "id": "6c4f1b8a-7d2e-4a9c-0e5b-3f7d2c1a4b9e",
+    "product": "Time Weaver Concept",
+    "manufacturer": "Future Timepieces Inc.",
+    "category": "Artistic and Conceptual Watches",
+    "dateReleased": "12-06-2025",
+    "title": "Displays time using a magnetic suspension of liquid crystals, eliminating hands."
+  },
+  {
+    "id": "0f3b7c2e-9a1d-4b5f-6c8e-4a2b1c3d5e0f",
+    "product": "Star Gazer Limited Edition",
+    "manufacturer": "Celestial Watches",
+    "category": "Collector's Watches",
+    "dateReleased": "05-12-2021",
+    "title": "Features a genuine meteorite fragment embedded into the watch dial."
+  },
+  {
+    "id": "5d2a9f4c-3e7b-401d-8f9a-1c0b5e3f4d6a",
+    "product": "Terra Nova Eco-Watch",
+    "manufacturer": "Sustain Watch Co.",
+    "category": "Eco-Friendly Watches",
+    "dateReleased": "18-10-2024",
+    "title": "Made from 100% recycled materials and powered entirely by solar energy."
+  },
+  {
+    "id": "8b5c4a3e-6d1f-490b-7c2a-0e4f3d1b5c6e",
+    "product": "Pocket Watch Heritage 1901",
+    "manufacturer": "Victorian Timekeepers",
+    "category": "Reissue and Heritage",
+    "dateReleased": "03-04-2023",
+    "title": "A faithful mechanical reissue of an iconic Edwardian era pocket watch design."
+  },
+  {
+    "id": "1c0d7f2a-4e8b-4b3d-5f9a-6c7e0d1f2a3b",
+    "product": "Pilot's Companion GMT",
+    "manufacturer": "Aviator Precision",
+    "category": "Aviation Watches",
+    "dateReleased": "20-01-2024",
+    "title": "Features three time zones and an altitude pressure gauge for professional pilots."
+  },
+  {
+    "id": "3e9b1d5c-0a6f-47c3-8e4b-9d5a7f2c1e0d",
+    "product": "Chronograph 'Blackout'",
+    "manufacturer": "Stealth Gear",
+    "category": "Military and Tactical",
+    "dateReleased": "15-11-2023",
+    "title": "Unrivaled luminescence and matte black ceramic finish for tactical missions."
+  },
+  {
+    "id": "7f6a2e4d-5c1b-4d9a-3e0f-2b4c8d5e9f1a",
+    "product": "Wellness Tracker 'Zenith'",
+    "manufacturer": "BioMetrics Inc.",
+    "category": "Health and Fitness Smartwatches",
+    "dateReleased": "30-05-2024",
+    "title": "Advanced sleep tracking and non-invasive blood sugar monitoring capabilities."
+  },
+  {
+    "id": "4a2c0b6e-8d5f-41e7-9c3a-0b5f1e4d3c7a",
+    "product": "The Architect's Watch",
+    "manufacturer": "Geometric Time",
+    "category": "Designer Watches",
+    "dateReleased": "01-02-2025",
+    "title": "Minimalist dial design inspired by Brutalist architecture."
+  },
+  {
+    "id": "9d1f5e7c-3b0a-4f2d-6c8e-4a7b9f0d1e2c",
+    "product": "Artisan Enamel Dial No. 5",
+    "manufacturer": "Haute Horlogerie",
+    "category": "Haute Horlogerie",
+    "dateReleased": "10-10-2022",
+    "title": "Hand-painted Grand Feu enamel dial, one of five ever made."
+  },
+  {
+    "id": "0b4c8d1e-7f6a-43c5-9b2d-1e0f3a4c5b6d",
+    "product": "Explorer Compass Watch",
+    "manufacturer": "Outlander Gear",
+    "category": "Adventure and Field Watches",
+    "dateReleased": "14-08-2024",
+    "title": "Solar-powered with a built-in digital compass and storm alarm."
+  },
+  {
+    "id": "3f7d2c1a-4b9e-406a-8c5f-0a3e7b1d5c2f",
+    "product": "The Perpetual Calendar",
+    "manufacturer": "Eternal Movements",
+    "category": "Complications",
+    "dateReleased": "22-03-2023",
+    "title": "Mechanical watch that accurately displays the date, day, month, and leap year until 2100."
+  },
+  {
+    "id": "8e0f3a4c-5b6d-4f1c-7a9b-2d1e0f3a4c5b",
+    "product": "Digital Retro 'Neon'",
+    "manufacturer": "Pixel Time",
+    "category": "Retro Digital",
+    "dateReleased": "06-06-2024",
+    "title": "A modern digital watch with an 8-bit aesthetic and custom neon LED display."
+  },
+  {
+    "id": "1b5e9f0d-2c4a-48b7-6e3f-9a1c0b5e3f4d",
+    "product": "Submersible Commander S1",
+    "manufacturer": "Deep Six",
+    "category": "Professional Diving",
+    "dateReleased": "17-04-2025",
+    "title": "Newest magnetic resistance technology and 300m water resistance."
+  },
+  {
+    "id": "4d6a0f3b-7c2e-41a9-8d5f-4c2b1e0d3f7a",
+    "product": "The Skeleton Watch V2",
+    "manufacturer": "Transparent Mechanics",
+    "category": "Skeleton Watches",
+    "dateReleased": "01-12-2024",
+    "title": "Fully visible movement with bridges made of heat-treated blue steel."
+  },
+  {
+    "id": "7c1b5e3f-4d6a-4f9e-3b0a-2c4f8d1e7f6a",
+    "product": "Smartwatch 'Connect Pro'",
+    "manufacturer": "Global Tech Corp.",
+    "category": "High-End Smartwatches",
+    "dateReleased": "14-02-2023",
+    "title": "Features 7-day battery life and seamless integration with all major operating systems."
+  },
+  {
+    "id": "2e0f3a4c-5b6d-41b7-9d7e-5c1b5e3f4d6a",
+    "product": "Celestial Moon Phase",
+    "manufacturer": "Starlight Jewelers",
+    "category": "Astronomical Complications",
+    "dateReleased": "29-09-2022",
+    "title": "Extremely accurate moon phase display requiring adjustment only once every 125 years."
+  },
+  {
+    "id": "6a9b4c8d-1e7f-40c2-5b3d-0a6f9e4c1b2d",
+    "product": "Rally Master Chrono",
+    "manufacturer": "Speed Racer Watches",
+    "category": "Motorsport Watches",
+    "dateReleased": "07-07-2024",
+    "title": "Tachymeter scale calibrated for measuring speeds on historic rally tracks."
+  },
+  {
+    "id": "9f0d1e2c-3a7b-4f8d-6e5c-4b1a9f0d1e2c",
+    "product": "The Thin Line Ultra",
+    "manufacturer": "Sleek Designs",
+    "category": "Ultra-Thin Watches",
+    "dateReleased": "08-01-2025",
+    "title": "The thinnest self-winding mechanical watch ever produced, under 2mm thick."
+  },
+  {
+    "id": "5c3d0a6f-9e4c-42b1-7d8e-3f6a1e2c4b5d",
+    "product": "The World Traveler",
+    "manufacturer": "Atlas Time Systems",
+    "category": "World Time Watches",
+    "dateReleased": "25-10-2023",
+    "title": "Simultaneously displays 24 time zones via a rotating inner bezel."
+  },
+  {
+    "id": "1b7e4d9f-0c3a-49e5-8b1d-2c4f6a8e3d5c",
+    "product": "Diamond Bezel Classic",
+    "manufacturer": "Regal Jewelry Watch Co.",
+    "category": "Jewelry Watches",
+    "dateReleased": "12-04-2024",
+    "title": "Elegant dress watch with VVS diamonds hand-set into the white gold bezel."
+  },
+  {
+    "id": "4e6a8d3c-1b9f-4f2e-7a0d-5c3b1e9f0d2c",
+    "product": "Atomic Time Sync Watch",
+    "manufacturer": "Precision Instruments",
+    "category": "Radio-Controlled Watches",
+    "dateReleased": "20-11-2022",
+    "title": "Automatically synchronizes with atomic clocks for perfect timekeeping."
+  },
+  {
+    "id": "7b0f2a5d-4c8e-401d-9f6a-1e3c5b7d9f0d",
+    "product": "The Kinetic Dynamo",
+    "manufacturer": "Energy Flow Tech",
+    "category": "Kinetic/Automatic",
+    "dateReleased": "19-09-2024",
+    "title": "Harnesses wrist motion to power a highly accurate quartz movement."
+  },
+  {
+    "id": "2c4a6e8b-1d0f-43f9-5b7c-0a9e3d5f1b2c",
+    "product": "The Retro Grade Hour",
+    "manufacturer": "Jump Hour Creations",
+    "category": "Unconventional Display",
+    "dateReleased": "05-01-2023",
+    "title": "The hour hand instantly jumps back to zero upon reaching the twelve o'clock position."
+  },
+  {
+    "id": "6f8d3c1a-5b0e-47f2-8d9e-1c3b5a7d9f0c",
+    "product": "The Educator's Timepiece",
+    "manufacturer": "Teaching Tools Inc.",
+    "category": "Novelty and Educational",
+    "dateReleased": "01-03-2024",
+    "title": "A watch designed to help children learn to tell time using color-coded hands."
+  },
+  {
+    "id": "9a1c5b3d-7e0f-41d4-6c2a-8b4e0d9f1c3a",
+    "product": "Camo Field Watch",
+    "manufacturer": "Survival Gear Co.",
+    "category": "Military and Field",
+    "dateReleased": "17-07-2023",
+    "title": "Extremely durable, shock-resistant watch with a non-reflective finish."
+  },
+  {
+    "id": "0d3f7e1b-5c9a-4e2d-8b4f-6a1c3d5e7f9a",
+    "product": "The Silent Alarm Watch",
+    "manufacturer": "Quiet Tech",
+    "category": "Innovation",
+    "dateReleased": "01-05-2025",
+    "title": "Wakes the wearer with a gentle vibration instead of an audible sound."
+  },
+  {
+    "id": "3b5e9a7f-1d2c-40f6-9e8b-4c0a6f8d3c1b",
+    "product": "The Bimetallic Dress Watch",
+    "manufacturer": "Prestige Metals",
+    "category": "Luxury Dress Watches",
+    "dateReleased": "28-06-2022",
+    "title": "A striking contrast of rose gold and stainless steel with a Guilloché dial."
+  },
+  {
+    "id": "6c7d8e9f-0a1b-42c3-5d4e-6f7a8b9c0d1e",
+    "product": "The Space Traveller",
+    "manufacturer": "Astro Chronos",
+    "category": "Space Exploration",
+    "dateReleased": "29-07-2025",
+    "title": "Tested to withstand high G-forces, using materials derived from aerospace engineering."
+  },
+  {
+    "id": "9d0a1b2c-3e4f-45g6-7h8i-9j0k1l2m3n4o",
+    "product": "The Diver's Chronograph 200m",
+    "manufacturer": "Aqua Timepieces",
+    "category": "Diving",
+    "dateReleased": "11-02-2024",
+    "title": "Reliable 200-meter water resistance with a highly legible chronograph sub-dial."
+  },
+  {
+    "id": "0e1f2a3b-4c5d-46e7-8f9a-0b1c2d3e4f5a",
+    "product": "The Power Reserve Indicator",
+    "manufacturer": "Everlasting Movements",
+    "category": "Mechanical Complications",
+    "dateReleased": "08-08-2023",
+    "title": "Features a large display showing the remaining running time of the mainspring."
+  },
+  {
+    "id": "4b5c6d7e-8f9a-47c3-5b0e-1d2f3a4b5c6d",
+    "product": "Smartwatch 'Urban Explorer'",
+    "manufacturer": "City Sense Tech",
+    "category": "Lifestyle Smartwatches",
+    "dateReleased": "15-01-2024",
+    "title": "Includes NFC payment, GPS, and personalized city travel guides."
+  },
+  {
+    "id": "8a9b0c1d-2e3f-48d9-6a7b-0c1d2e3f4a5b",
+    "product": "The Skeleton Bridge Watch",
+    "manufacturer": "Open View Designs",
+    "category": "Skeleton Watches",
+    "dateReleased": "20-04-2022",
+    "title": "Movement architecture inspired by suspension bridges, visible through the dial."
+  },
+  {
+    "id": "1c2d3e4f-5a6b-49e0-8d7c-6b5a4f3e2d1c",
+    "product": "The Ceramic Case Perpetual",
+    "manufacturer": "Durable Time",
+    "category": "Luxury Material Watches",
+    "dateReleased": "03-03-2025",
+    "title": "Feather-light ceramic casing that is virtually scratch-proof."
+  },
+  {
+    "id": "5e6f7a8b-9c0d-40f1-2e3d-4c5b6a7e8f9d",
+    "product": "The Regulator Display",
+    "manufacturer": "Master Calibrators",
+    "category": "Unconventional Display",
+    "dateReleased": "19-06-2023",
+    "title": "Separated minute, hour, and second hands on three different axes for precision."
+  },
+  {
+    "id": "9b0c1d2e-3f4a-41b5-7c8d-9e0f1a2b3c4d",
+    "product": "The Two-Tone Diver",
+    "manufacturer": "Coastal Time",
+    "category": "Diving and Luxury",
+    "dateReleased": "16-05-2024",
+    "title": "Stainless steel and 18k yellow gold construction with a vibrant blue ceramic bezel."
+  },
+  {
+    "id": "2d3e4f5a-6b7c-42d8-9e0f-1a2b3c4d5e6f",
+    "product": "The Jumping Hour Digital",
+    "manufacturer": "Modern Time Co.",
+    "category": "Digital Mechanical",
+    "dateReleased": "10-08-2025",
+    "title": "Mechanical watch that displays the hour via a window, changing instantly at the top of the hour."
+  },
+  {
+    "id": "6f7a8b9c-0d1e-43f2-5a6b-7c8d9e0f1a2b",
+    "product": "The Pilot's Flyback Chrono",
+    "manufacturer": "Airborne Instruments",
+    "category": "Aviation",
+    "dateReleased": "09-05-2023",
+    "title": "Features a 'flyback' function allowing instant reset and restart of the chronograph with one push."
+  },
+  {
+    "id": "a0b1c2d3-e4f5-44a6-7b8c-9d0e1f2a3b4c",
+    "product": "The Tourbillon Resonance",
+    "manufacturer": "Precision Artificers",
+    "category": "Haute Horlogerie",
+    "dateReleased": "25-06-2024",
+    "title": "Two independent balance wheels that self-regulate each other for exceptional accuracy."
+  },
+  {
+    "id": "c3d4e5f6-a7b8-45e9-0f1a-2b3c4d5e6f7a",
+    "product": "The Carbon Fiber Racer",
+    "manufacturer": "Velocity Watches",
+    "category": "Motorsport",
+    "dateReleased": "04-12-2023",
+    "title": "Lightweight construction using forged carbon fiber, inspired by Formula 1 cars."
+  },
+  {
+    "id": "f6a7b8c9-d0e1-46f2-3a4b-5c6d7e8f9012",
+    "product": "The Quartz Precision+",
+    "manufacturer": "Hyper-Accurate",
+    "category": "High-Frequency Quartz",
+    "dateReleased": "01-01-2024",
+    "title": "Quartz movement accurate to within +/- 5 seconds per year."
+  },
+  {
+    "id": "a1b2c3d4-e5f6-47g8-9h0i-1j2k3l4m5n6o",
+    "product": "The Square Dress Watch",
+    "manufacturer": "Rectangular Timepieces",
+    "category": "Dress Watches",
+    "dateReleased": "18-08-2022",
+    "title": "A stylish, square-cased watch with a simple, elegant sunburst dial."
+  },
+  {
+    "id": "c4d5e6f7-a8b9-48e0-1f2a-3b4c5d6e7f8a",
+    "product": "The Tidal Tracker",
+    "manufacturer": "Maritime Instruments",
+    "category": "Nautical and Fishing",
+    "dateReleased": "25-04-2025",
+    "title": "Features a sub-dial indicating high and low tides for coastal navigation."
+  },
+  {
+    "id": "e9f0a1b2-c3d4-49e5-6f7a-8b9c0d1e2f3a",
+    "product": "The Vintage Diver Reissue",
+    "manufacturer": "Heritage Diving",
+    "category": "Reissue and Vintage",
+    "dateReleased": "29-11-2023",
+    "title": "A limited reissue of a classic 1960s skin diver watch with modern waterproofing."
+  },
+  {
+    "id": "1b3c5d7e-9f0a-40b1-2c3d-4e5f6a7b8c9d",
+    "product": "The Digital Compass Watch",
+    "manufacturer": "Trekker Tools",
+    "category": "Field and Utility",
+    "dateReleased": "05-10-2024",
+    "title": "Rugged digital watch with integrated thermometer and digital compass functions."
+  },
+  {
+    "id": "3d5e7f9a-1c3b-41d5-8e9f-0a1b2c3d4e5f",
+    "product": "The Gold Milanese Mesh",
+    "manufacturer": "Fashion Forward Watches",
+    "category": "Fashion and Lifestyle",
+    "dateReleased": "28-01-2025",
+    "title": "A thin, elegant quartz watch with a luxurious gold-plated Milanese mesh strap."
+  },
+  {
+    "id": "5f7a9b1c-3d5e-42f6-7a8b-9c0d1e2f3a4b",
+    "product": "The Dual-Axis Tourbillon",
+    "manufacturer": "Complex Mechanisms",
+    "category": "Haute Horlogerie",
+    "dateReleased": "01-04-2024",
+    "title": "The escapement rotates on two separate axes to negate gravity's effects from all angles."
+  },
+  {
+    "id": "7d9f1a3b-5e7c-43f9-8d0a-1b2c3d4e5f6a",
+    "product": "The Minimalist Ultra-Thin",
+    "manufacturer": "Zenith Design Co.",
+    "category": "Minimalist",
+    "dateReleased": "14-03-2023",
+    "title": "Extremely clean dial with only hour and minute markers, powered by a slim movement."
+  }
+]

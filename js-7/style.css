@@ -1,0 +1,67 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: rgb(226, 159, 33);
+}
+
+th {
+  background-color: rgb(226, 159, 33);
+}
+
+#table-body {
+  border: 1px solid rgb(226, 159, 33);
+}
+
+.action-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(218, 168, 76);
+}
+#reportsForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid orange;
+  margin-top: 22px;
+  width: 450px;
+  gap: 8px;
+}
+label {
+  color: rgb(226, 159, 33);
+}
+button {
+  background-color: rgb(218, 168, 76);
+  border: none;
+  cursor: pointer;
+}
+#cancelBtn {
+  background-color: rgb(205, 117, 117);
+}
+.report {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80px;
+  width: 100%;
+  gap: 20px;
+  box-sizing: border-box;
+  background-color: rgb(133, 193, 201);
+  color: white;
+  border-radius: 12px;
+  margin: 10px;
+  transition: 0.3s;
+}
+.report:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(0.9);
+}
+.watch-title {
+  color: rgba(6, 57, 80, 0.932);
+  text-align: center;
+}

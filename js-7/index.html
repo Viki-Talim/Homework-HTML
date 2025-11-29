@@ -1,0 +1,80 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reports</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div class="nav">
+      <a href="index.html">Admin</a>
+      <a href="report.html">Reports</a>
+    </div>
+    <!-- <div class="userAuth">
+        <button>Log in</button>
+        <button></button>
+
+    </div> -->
+    <form id="reportsForm">
+      <label for="reportProduct">Product</label>
+      <input
+        type="text"
+        name="reportProduct"
+        id="reportProduct"
+        placeholder="Enter product name"
+        required
+      />
+
+      <label for="reportManu">Manufacturer</label>
+      <input
+        type="text"
+        name="reportManu"
+        id="reportManu"
+        placeholder="Enter Manufacturer"
+        required
+      />
+      <label for="reportCategory">Category</label>
+      <input
+        type="text"
+        name="reportCategory"
+        id="reportCategory"
+        placeholder="Enter Category (optional)"
+      />
+      <label for="reportDateReleased">Date Released</label>
+      <input
+        type="date"
+        name="reportDateReleased"
+        id="reportDateReleased"
+        placeholder="Enter Date Released (optional)"
+      />
+      <label for="reportTitle"> Title</label>
+      <input
+        type="text"
+        name="reportTitle"
+        id="reportTitle"
+        placeholder="Enter Title"
+        required
+      />
+      <button id="submitBtn" type="submit">Create Report</button>
+      <button id="cancelBtn" type="button" style="display: none">
+        Cancel Edit
+      </button>
+    </form>
+    <h2 class="title">Watches Reports</h2>
+    <table border width="100%">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Manufacturer</th>
+          <th>Category</th>
+          <th>Date Released</th>
+          <th>Title</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <script src="script.js" defer></script>
+  </body>
+</html>

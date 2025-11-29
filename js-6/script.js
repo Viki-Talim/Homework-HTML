@@ -106,6 +106,7 @@ function initializeApp() {
       tableBody.innerHTML =
         '<tr><td colspan="5">Unesuccessfully loading data</td></tr>';
     });
+    
 }
 
-document.addEventListener("DOMContentLoaded", initializeApp);
+initializeApp();
