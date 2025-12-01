@@ -50,11 +50,11 @@ button {
   width: 100%;
   gap: 20px;
   box-sizing: border-box;
-  background-color: rgb(133, 193, 201);
-  color: white;
+  background-color: rgba(36, 35, 35, 0.74);
+  color: cadetblue;
   border-radius: 12px;
   margin: 10px;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .report:hover {
   cursor: pointer;
