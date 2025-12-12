@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="login-title">The Show Lab</h1>
+    </div>
+    <div class="sign-in-form-section">
+      <div id="loginFormView">
+        <form id="loginForm">
+          <label for="loginEmail">Email:</label>
+          <input
+            type="email"
+            id="loginEmail"
+            name="email"
+            required
+            class="input-field"
+          />
+
+          <label for="loginPassword">Password:</label>
+          <input
+            type="password"
+            id="loginPassword"
+            name="password"
+            required
+            minlength="8"
+            class="input-field"
+          />
+
+          <button type="submit" class="sign-acc-btn">Sign in</button>
+        </form>
+        <button id="createAccountBtn" class="create-acc-btn">
+          Create your Show Lab account
+        </button>
+      </div>
+
+      <div id="registerFormView" style="display: none">
+        <form id="registerForm">
+          <label for="registerEmail">Email:</label>
+          <input
+            type="email"
+            id="registerEmail"
+            name="email"
+            required
+            class="input-field"
+          />
+
+          <label for="registerPassword">Password:</label>
+          <input
+            type="password"
+            id="registerPassword"
+            name="password"
+            required
+            class="input-field"
+          />
+
+          <label for="confirmPassword">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            required
+            class="input-field"
+          />
+
+          <button type="submit" class="sign-acc-btn">Create account</button>
+        </form>
+        <button id="backToSignInBtn" class="create-acc-btn">
+          Back to Sign In
+        </button>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="showViewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Show Lab</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@iconify/icons-solar@1.2.3/adhesive-plaster-2-linear.min.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a id="favoritesLink" href="favorites.html" style="display: none;">Favorites</a>
+      <input type="text" id="search-show" />
+      <button id="search-btn" onclick="filterShows()">Search</button>
+      <a id="joinLink" href="login.html" target="_blank"> Join The Show Lab</a>
+      <div id="userData" style="display: none;">
+        <button id="logout-btn"  onclick='logout()'>Logout</button>
+      </div>
+    </div>
+      <div id="shows-container"></div>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>

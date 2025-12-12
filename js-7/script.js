@@ -47,7 +47,13 @@ document.getElementById("reportsForm").addEventListener("submit", function (e) {
   const product = document.getElementById("reportProduct").value;
   const manufacturer = document.getElementById("reportManu").value;
   const category = document.getElementById("reportCategory").value;
-  const dateReleased = document.getElementById("reportDateReleased").value;
+    const dateReleased = document.getElementById("reportDateReleased").value;
+
+  let dateToSave = dateReleased;
+  if (dateReleased && dateReleased.includes("-")) {
+    const dateParts = dateReleased.split("-");
+    dateToSave = `${dateParts[2]}-${dateParts[1]}-${dateParts[0]}`;
+  }
   const title = document.getElementById("reportTitle").value;
   if (editId === null) {
     const newReport = {
@@ -55,7 +61,7 @@ document.getElementById("reportsForm").addEventListener("submit", function (e) {
       product,
       manufacturer,
       category,
-      dateReleased,
+      dateReleased: dateToSave,
       title,
     };
     reports.unshift(newReport);
@@ -66,7 +72,7 @@ document.getElementById("reportsForm").addEventListener("submit", function (e) {
     report.product = product;
     report.manufacturer = manufacturer;
     report.category = category;
-    report.dateReleased = dateReleased;
+    report.dateReleased = dateToSave;
     report.title = title;
     disableEditMode();
   }
@@ -123,7 +129,14 @@ function editReport(id) {
   document.getElementById("reportProduct").value = report.product;
   document.getElementById("reportManu").value = report.manufacturer;
   document.getElementById("reportCategory").value = report.category;
-  document.getElementById("reportDateReleased").value = report.dateReleased;
+  if (report.dateReleased) {
+    const dateParts = report.dateReleased.split("-");
+    const formattedDate = `${dateParts[2]}-${dateParts[1]}-${dateParts[0]}`;
+    document.getElementById("reportDateReleased").value = formattedDate;
+  } else {
+    document.getElementById("reportDateReleased").value = "";
+  }
+  // document.getElementById("reportDateReleased").value = report.dateReleased;
   document.getElementById("reportTitle").value = report.title;
 
   document.getElementById("submitBtn").innerText = "Update Report";
